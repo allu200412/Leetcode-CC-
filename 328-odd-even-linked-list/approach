@@ -1,0 +1,22 @@
+How We Do It Step-by-Step
+Set up 3 pointers:
+
+odd points to position 1.
+
+even points to position 2.
+
+evenHead saves position 2 so we don't forget where the Even group starts.
+
+Hop across the list in a loop:
+
+Point odd->next to even->next (skipping the even person to reach the next odd person).
+
+Move the odd pointer forward.
+
+Point even->next to odd->next (skipping the odd person to reach the next even person).
+
+Move the even pointer forward.
+
+Connect the two groups:
+
+Once you reach the end, attach evenHead to the end of the odd list (odd->next = evenHead).
