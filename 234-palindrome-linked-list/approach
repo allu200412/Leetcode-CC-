@@ -17,3 +17,6 @@ Compare both halves:
 Start one pointer at the beginning (head) and another at the start of the reversed second half.
 
 Walk step-by-step to see if every number matches. If all match, it's a palindrome!
+
+
+Time Complexity:O(N)
