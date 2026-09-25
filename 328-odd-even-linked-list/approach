@@ -20,3 +20,6 @@ Move the even pointer forward.
 Connect the two groups:
 
 Once you reach the end, attach evenHead to the end of the odd list (odd->next = evenHead).
+
+
+Time Complexity: O(N)
